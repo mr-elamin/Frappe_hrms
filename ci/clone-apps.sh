@@ -18,5 +18,4 @@
 
 # Following are public repositories.
 
-git clone --depth 1 --branch master https://github.com/yrestom/POS-Awesome repos/posawesome
-git clone --depth 1 --branch master https://github.com/frappe/wiki repos/wiki
+git clone --depth 1 --branch develop https://github.com/frappe/hrms.git repos/hrms
