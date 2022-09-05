@@ -7,8 +7,7 @@ FROM frappe/assets-builder:${FRAPPE_VERSION} as assets
 
 COPY repos apps
 
-RUN install-app posawesome && \
-    install-app wiki
+RUN install-app hrms
 
 FROM frappe/erpnext-nginx:${ERPNEXT_VERSION}
 
