@@ -8,7 +8,7 @@ COPY repos ../apps
 USER root
 
 RUN install-app hrms
-RUN install-app desk
+RUN install-app frappedesk
 RUN install-app lms
 
 USER frappe
