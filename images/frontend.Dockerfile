@@ -23,7 +23,7 @@ WORKDIR /builds/bench
 # Comment following if ERPNext not required
 RUN bench get-app --branch=${ERPNEXT_VERSION} --skip-assets --resolve-deps erpnext
 
-COPY --chown=frappe:frappe repos/. apps
+COPY --chown=frappe:frappe repos apps
 
 RUN bench setup requirements
 
