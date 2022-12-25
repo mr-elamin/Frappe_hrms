@@ -19,6 +19,6 @@
 # Following are public repositories.
 
 git clone https://github.com/frappe/hrms.git ~/project/repos/hrms
-git clone https://github.com/frappe/desk.git ~/project/repos/desk
+git clone https://github.com/frappe/desk.git ~/project/repos/frappedesk
 git clone https://github.com/frappe/lms.git ~/project/repos/lms
 
